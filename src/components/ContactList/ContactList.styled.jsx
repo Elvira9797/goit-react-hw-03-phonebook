@@ -8,6 +8,7 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   display: flex;
+  align-items: center;
   gap: 10px;
   &:not(:last-child) {
     margin-bottom: 8px;
@@ -19,6 +20,7 @@ export const Button = styled.button`
   border: 1px solid #dbdbdb;
   border-radius: 4px;
   cursor: pointer;
+  padding: 4px 10px;
   transition: background 250ms linear, color 250ms linear;
   &:active,
   &:hover,

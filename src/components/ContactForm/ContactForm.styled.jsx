@@ -34,6 +34,7 @@ export const Button = styled.button`
   background: none;
   border: 1px solid #dbdbdb;
   border-radius: 4px;
+  padding: 8px 10px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
     transform 0.3s ease-in-out;
